@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#9F1239" />
+    </linearGradient>
+    <linearGradient id="rim" x1="116" y1="140" x2="396" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Handle arc -->
+  <path d="M164 176C164 118 205 84 256 84C307 84 348 118 348 176" stroke="#FFF1F2" stroke-width="24" stroke-linecap="round" />
+  <!-- Bucket Rim -->
+  <rect x="116" y="156" width="280" height="44" rx="22" fill="url(#rim)" />
+  <!-- Bucket Body -->
+  <path d="M136 200H376L348 404C345 424 328 438 308 438H204C184 438 167 424 164 404L136 200Z" fill="#FFFFFF" />
+  <!-- Katar Maroon / Rose Stripes on Bucket -->
+  <path d="M188 228H216L224 406H198L188 228Z" fill="#E11D48" />
+  <path d="M242 228H270V406H242V228Z" fill="#E11D48" />
+  <path d="M296 228H324L314 406H288L296 228Z" fill="#E11D48" />
+  <!-- Checkmark price tag badge -->
+  <circle cx="352" cy="368" r="54" fill="#10B981" stroke="#FFFFFF" stroke-width="12" />
+  <path d="M328 368L345 385L378 352" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

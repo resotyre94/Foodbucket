@@ -1,0 +1,6 @@
+{
+  "name": "Food Bucket",
+  "description": "Search once, compare every food delivery app in Qatar (Talabat, Snoonu, Rafeeq, Keeta), and find the lowest total cost and best deal.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
