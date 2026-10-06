@@ -10,12 +10,18 @@ import {
   RestaurantComparison,
 } from '../types/food';
 
+import biryaniImage from '../assets/images/food_chicken_biryani_1791284110927.jpg';
+import shawarmaImage from '../assets/images/food_arabic_shawarma_1791284125042.jpg';
+import burgerImage from '../assets/images/food_smash_burger_1791284139937.jpg';
+import pizzaImage from '../assets/images/food_truffle_pizza_1791284150202.jpg';
+import parottaKarakImage from '../assets/images/food_kerala_parotta_karak_1791284164119.jpg';
+
 export const FOOD_IMAGES = {
-  biryani: '/src/assets/images/food_chicken_biryani_1791284110927.jpg',
-  shawarma: '/src/assets/images/food_arabic_shawarma_1791284125042.jpg',
-  burger: '/src/assets/images/food_smash_burger_1791284139937.jpg',
-  pizza: '/src/assets/images/food_truffle_pizza_1791284150202.jpg',
-  parottaKarak: '/src/assets/images/food_kerala_parotta_karak_1791284164119.jpg',
+  biryani: biryaniImage,
+  shawarma: shawarmaImage,
+  burger: burgerImage,
+  pizza: pizzaImage,
+  parottaKarak: parottaKarakImage,
 };
 
 export const QATAR_ZONES: QatarZone[] = [
